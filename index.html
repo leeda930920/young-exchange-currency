@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="exchange-box">
+      <div class="dropdown">
+        <button class="dropbtn" id="from-button">KRW</button>
+        <div class="dropdown-content" id="from-currency-list">
+          <a href="#">KRW</a>
+          <a href="#">USD</a>
+          <a href="#">VND</a>
+        </div>
+        <div class="input-box">
+          <input type="text" class="amount-box" id="fromAmount" onkeyup="convert('from')" placeholder="금액을 입력하세요" />
+          <div id="fromNumToKorea" class="korean-num">달러</div>
+        </div>
+      </div>
+    </div>
+
+    <h1>=</h1>
+
+    <div class="exchange-box">
+      <div class="dropdown">
+        <button class="dropbtn" id="to-button">USD</button>
+        <div class="dropdown-content" id="to-currency-list">
+          <a href="#">KRW</a>
+          <a href="#">USD</a>
+          <a href="#">VND</a>
+        </div>
+        <div class="input-box">
+          <input type="text" class="amount-box" id="toAmount" onkeyup="convert('to')" placeholder="금액을 입력하세요" />
+          <div id="toNumToKorea" class="korean-num">달러</div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

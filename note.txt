@@ -1,0 +1,17 @@
+[자바스크립트 프로젝트 실행 전 초기세팅]
+
+명령 프롬프트(cmd) 실행
+cd Desktop
+cd (해당 드라이브)
+mkdir (새로운 폴더) / 폴더 생성
+cd (새로운 폴더) / 폴더로 이동
+code . / VScode로 해당 폴더 열기
+
+index.html / style.css / main.js 파일 생성 후,
+index.html(html:5) 에서 css와 js를 연결
+<head>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<script src="main.js"></script>
+</body>
